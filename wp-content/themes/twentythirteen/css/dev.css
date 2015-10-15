@@ -1,0 +1,276 @@
+/* Restyle media device*/
+/* */
+
+body{
+	font-family:  'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, sans-serif;
+}
+h3{
+	margin-top: 0 !important;
+	color: #cc0000;
+	font-weight: bold;
+	font-family:  "Hiragino Kaku Gothic Pro","ヒラギノ角ゴ Pro W6","メイリオ","Meiryo",Helvetica,Arial,"ＭＳ Ｐゴシック",sans-serif !important;
+}
+@media (min-width: 1200px){
+	.container {
+		width: 960px !important;
+	}
+	h3.name-bg{
+		min-height: 179px;
+		font-size: 38px !important;
+		margin: 50px 0 !important;
+	}
+	.img-header{
+		padding-left: 0px !important; 
+	}
+	.nav-menu li a {
+		padding: 15px 30px !important;
+	}
+	.main-navigation {
+		max-width: 960px !important;
+		/* margin: -25px auto !important; */
+	}
+	.pos-customize{
+		font-size: 36px;	
+		top: 210px !important;
+	}	
+	ul.nav-menu, div.nav-menu > ul {
+		padding: 0 0 0 0 !important;
+	}
+	.sz-text-lo{
+		font-size: 18px;
+	}
+	#logistics-page .col-md-4{
+		width: 32.33333333%;
+	}
+	#logistics-page .col-md-6{
+		width: 49%;
+	}
+	h3.h3-title{
+		font-size: 28px !important;
+	}
+}
+.box-wh{
+	padding-right: 3px !important;
+	padding-left: 3px !important;
+}
+.site-header .home-link {
+    min-height: 70px !important;
+}
+
+.navbar {
+    background-color: #ffffff !important;
+	min-height: 45px !important;
+}
+.nav-menu li {
+    background-color: #cc0000;
+}
+.nav-menu li a {
+    color: #ffffff !important;
+	text-transform: uppercase;
+}
+.nav-menu li:hover > a, .nav-menu li a:hover, .nav-menu li:focus > a, .nav-menu li a:focus {
+    background-color: #660000 !important;
+}
+.service-content a:focus > .box-border, .service-content a:hover > .box-border{
+	background-color: #cc0000 !important;
+	color: #fff;
+}
+.lang-ul{ 
+	float:right;
+}
+.lang-ul li{
+	border-left: 1px solid #000000;
+}
+.lang-ul li:first-of-type{
+	border-left: none !important;
+}
+.lang-ul li > a{
+	margin: 0 5px 0 5px;
+	color: #000000 !important;
+	cursor: pointer;
+	text-decoration: none;
+}
+.lang-ul li:hover > a, .lang-ul li:focus > a{
+	color: #cc0000 !important;
+	font-weight: bold;
+}
+.box-border{
+	border: 4px solid #cc0000; 
+	text-align: center; 
+	color: #cc0000;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 15px;
+}
+.box-red {
+	background-color: #cc0000;
+	color: #fff;
+	text-align: center;
+	padding-top: 5px;
+    padding-bottom: 5px;
+}
+.box-gray {
+	background-color: #cccccc;
+	color: #333333;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.box-gr{
+	background-color: #999999;
+	color: #ffffff;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 2px;
+	margin-right: 5px;
+	border-radius: 0 !important;
+}
+.t-detail{
+	color: #cc0000;
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.font-white{
+	color: #fff;
+	font-weight: bold;
+}
+.mrg-text{
+	margin-top: -30px;
+    margin-left: 20px;
+}
+.font-red{
+	color: #cc0000;
+	font-weight: bold;
+}
+.site-info > ul > li:first-of-type {
+	border-right: 2px solid #999999;
+}
+.site-footer {
+    background-color: #333333 !important;
+    color: #999999 !important;
+}
+.site-footer > img{
+	width: 100%;
+    border-top: 1px solid #CECDCD;
+}
+.site-info {
+	padding: 5px 0 !important;
+}
+.name-bg{
+	position: absolute; 
+	top: 15px; 
+	text-shadow: 2px 2px #fff;	
+}
+
+.wrapper-body{
+	margin-top: 50px;
+	margin-bottom: 60px;
+}
+button{
+	/*background: linear-gradient(to bottom, #cc0000 0%, #d94412 100%) !important;*/
+	font-weight: bold;
+}
+a.box-gr{
+	color: #fff !important;
+	font-weight: bold;
+}
+.col-lg-4 {
+    width: 32.333%;
+}
+.col-lg-6 {
+    width: 49%;
+}
+.box-sch{
+	margin-bottom: 30px;
+	font-size: 18px;
+}
+.nav-menu .current_page_item > a,
+.nav-menu .current_page_ancestor > a,
+.nav-menu .current-menu-item > a,
+.nav-menu .current-menu-ancestor > a {
+	font-style: normal !important;
+	background-color: #660000 !important;
+	font-weight: bold;
+}
+
+.site-info > ul > li{
+	color: #999999 !important;
+	font-size: 11px !important;
+}
+.site-footer ul {
+    margin: 5px 0 !important;
+	font-family: "Hiragino Kaku Gothic Pro","ヒラギノ角ゴ Pro W3","メイリオ","Meiryo",Helvetica,Arial,"ＭＳ Ｐゴシック",sans-serif !important;
+}
+#colophon  li {
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+}
+.border-dotted{
+	border-top: 1px dotted #cccccc; 
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-size: 18px;
+}
+.border-btm{
+	border-bottom: 1px dotted #cccccc; 
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.name-bg-top{
+		position: absolute; 
+		top: 150px;
+		text-shadow: 2px 2px #fff;	
+		font-weight: bold;
+}
+
+#logistics-page a:focus > .box-gr, #logistics-page a:hover > .box-gr{
+	background-color: #cc0000 !important;
+	color: #fff;
+}
+.mrg-btm-20{
+	margin-bottom: 20px;
+}
+.mrg-btm-30{
+	margin-bottom: 30px;
+}
+.mrg-btm-40{
+	margin-bottom: 40px;
+}
+.mrg-row-30{
+	margin-bottom: 30px;
+	margin-top: 50px;
+}
+.pad-top-5{
+	padding-top: 5px;
+}
+#site-company{
+	margin-bottom: 80px;
+}
+#bg-main{
+	height: 10em;
+   position: relative
+}
+#bg-main h3{
+	margin: 0;
+   position: absolute;               /* 2 */
+   top: 50%;                         /* 3 */
+   transform: translate(0, -50%)
+}
+.btn-contact{
+	padding: 6px 24px 5px !important;
+}
+.ul-custom{
+	padding: 0 0 0 17px !important;
+}
+#logistics-page{
+	margin-bottom: 80px;
+}
